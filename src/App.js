@@ -117,7 +117,7 @@ class App extends Component {
   displayingSettings = () =>this.state.page === 'settings'
   firstVisitMessage=()=>{
     if(this.state.firstVisit){
-      return <div>Welcome to CryptoDash, please select your favorite coins to begin.</div>
+      return <div>Welcome to Roni Crypto, please select your favorite coins to begin.</div>
     }
   }
   confirmFavorites=()=>{

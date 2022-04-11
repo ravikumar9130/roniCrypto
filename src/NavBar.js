@@ -18,14 +18,14 @@ const NavBar = styled.div`
 export default function(){
     return <NavBar>
           <Logo>
-            CryptoDash
+            Roni Crypto
           </Logo>
           <div></div>
           {!this.state.firstVisit && this.state.favorites && this.state.favorites.length >0 &&<ControlButton onClick={()=>{this.setState({page:'dashboard'})}} active={this.displayingDashboard()}>
             Dashboard
           </ControlButton>}
           <ControlButton onClick={()=>{this.setState({page:'settings'})}} active={this.displayingSettings()}>
-            Settings
+            Home
           </ControlButton>
         </NavBar>
 }
